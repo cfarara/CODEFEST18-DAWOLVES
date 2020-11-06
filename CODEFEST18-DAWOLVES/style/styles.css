@@ -1,0 +1,130 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+canvas {
+	background: #FFFFFF;
+	display: block;
+	border: 1px solid black;
+	border-radius: 25px;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#wrapper {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 700px;
+	max-width: 1024px;
+	margin-top: 10px;
+	border-radius: 25px;
+	display: inline-block;
+}
+.textarea_format {
+
+	margin-top: 20px;
+	margin-bottom: 160px;
+
+}
+#input {
+	float: left;
+}
+#controls {
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  border: 1px solid black;
+	border-radius: 25px;
+	float: right;
+	margin-right: 10px;
+	background-color: white;
+
+}
+#previous {
+	float: left;
+}
+#execute {
+	margin-left: 40%;
+}
+#next {
+	float: right;
+}
+.button_format {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #dd1919;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: ##dd1919}
+
+button:active {
+  background-color: #dd1919;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#button_non_directional {
+	align-self: center;
+	align-content: center;
+	align-items: center;
+}
+.developer_buttons {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+header {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 50px;
+	font-size: 15px;
+
+}
+#objectives {
+	margin-top: 15px;
+}
+textarea{
+	font-size: 15px;
+	padding-left: 5px;
+	border: 1px solid black;
+	margin-left: 10px;
+	width:  300px;
+	height: 120px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-radius: 25px;
+	resize: none;
+}
+body{
+	background: url('../images/gameboy.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+ul {
+	width:  300px;
+	height: 90px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+#objectives {
+	text-align: center;
+}
